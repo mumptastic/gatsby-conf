@@ -1,13 +1,12 @@
-import React from 'react'
-import { Link } from 'gatsby'
+import React from "react"
+import Layout from "../components/layout"
 
 const AboutPage = () => {
-    return (
-        <div>
-            <h1>Hi, this is the about page!</h1>
-            <Link to="/">Back Home</Link>
-        </div>
-    )
+  return (
+    <Layout pageTitle='About'>
+     <h2>About Page</h2>
+    </Layout>
+  )
 }
 
 export default AboutPage
