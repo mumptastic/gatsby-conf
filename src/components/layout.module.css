@@ -1,4 +1,16 @@
 .title {
-  color: blue;
+  color: black;
   font-size: 3rem;
+}
+.navBar {
+  background: black;
+  padding: 5px;
+}
+.navBar li {
+  display: inline-block;
+}
+
+.navBar li a {
+  color: ghostwhite;
+  margin: 10px;
 }
